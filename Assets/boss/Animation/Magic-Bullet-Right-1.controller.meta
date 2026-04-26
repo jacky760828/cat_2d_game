@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bc3a0cf579eb4ff43b7f2c6eb978717e
+timeCreated: 1457401280
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 58323
+  packageName: Kitsune 2D  Character Pack
+  packageVersion: 1.0
+  assetPath: Assets/Male_Kitsune/Animation/Magic-Bullet-Right-1.controller
+  uploadId: 110194

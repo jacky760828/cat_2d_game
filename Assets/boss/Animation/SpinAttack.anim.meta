@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6b036812594403c4ba17fcb8a063a63d
+timeCreated: 1457401280
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 58323
+  packageName: Kitsune 2D  Character Pack
+  packageVersion: 1.0
+  assetPath: Assets/Male_Kitsune/Animation/SpinAttack.anim
+  uploadId: 110194

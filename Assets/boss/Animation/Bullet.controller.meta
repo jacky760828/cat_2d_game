@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bd2d9294690e7db409e52bfff83f26ff
+timeCreated: 1457401280
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 58323
+  packageName: Kitsune 2D  Character Pack
+  packageVersion: 1.0
+  assetPath: Assets/Male_Kitsune/Animation/Bullet.controller
+  uploadId: 110194

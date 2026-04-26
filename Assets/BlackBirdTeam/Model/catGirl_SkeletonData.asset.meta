@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fcf7677959a278c41900d5653cae22f8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 287439
+  packageName: CatGirl
+  packageVersion: 1.0
+  assetPath: Assets/BlackBirdTeam/Model/catGirl_SkeletonData.asset
+  uploadId: 670354

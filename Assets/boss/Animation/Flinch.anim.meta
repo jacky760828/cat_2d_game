@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fca07c4df3056334fa73f12cca82597c
+timeCreated: 1457401280
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 58323
+  packageName: Kitsune 2D  Character Pack
+  packageVersion: 1.0
+  assetPath: Assets/Male_Kitsune/Animation/Flinch.anim
+  uploadId: 110194
