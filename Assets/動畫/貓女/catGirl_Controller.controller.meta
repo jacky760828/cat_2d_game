@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 46d136c4c0ac79c49b726cc4cf919233
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 287439
+  packageName: CatGirl
+  packageVersion: 1.0
+  assetPath: Assets/BlackBirdTeam/Model/catGirl_Controller.controller
+  uploadId: 670354

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e024727b40a6a8443aaec15dba16b9f3
+timeCreated: 1457401280
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 58323
+  packageName: Kitsune 2D  Character Pack
+  packageVersion: 1.0
+  assetPath: Assets/Male_Kitsune/Animation/Melee.anim
+  uploadId: 110194

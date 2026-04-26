@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5ad6563a96cfdc041b672f3215b53e23
+timeCreated: 1457401280
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 58323
+  packageName: Kitsune 2D  Character Pack
+  packageVersion: 1.0
+  assetPath: Assets/Male_Kitsune/Animation/Run.anim
+  uploadId: 110194
