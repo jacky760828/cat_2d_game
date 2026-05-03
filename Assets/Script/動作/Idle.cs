@@ -40,33 +40,35 @@ namespace Cat
             // ⭐ 狀態切換
             if (Mathf.Abs(x) > 0.1f)
             {
+                anim.SetBool("跑",true); // ⭐ 提前開動畫
+                Debug.Log("切換到跑");
                 _State_Machime.changeto(_State_Machime._run);
                 return;
             }
-            //if (pi.input.attack)
-            //{
-            //    //Debug.Log("punch1");
-            //    _State_Machime.changeto(_State_Machime._punch);
-            //    return;
-            //    // _play.turn(inputH > 0 ? 1 : -1);
-            //}
-            //if (pi.input.jump)
-            //{
-            //    _statemachine.changeto(_statemachine._jump);
-            //    Debug.Log("jump做");
-            //    return;
-            //}
-            //if (pi.input.rollForward)
-            //{
-            //    //Debug.Log("翻滾做");
-            //    _statemachine.changeto(_statemachine._roll);
-            //    return;
-            //}
-            //if (_statemachine.Dead)
-            //{
-            //    _statemachine.changeto(_statemachine._dead);
-            //    return;
-            //}
+            if (pi.Input.attackPressed)
+            {
+                pi.Input.attackPressed=false; // ⭐ 只觸發一次
+                if (pi.Input.heavy)
+                {
+                    pi.Input.heavy = false;
+                    _State_Machime.changeto(_State_Machime._Attack_Big);
+                }
+                else
+                {
+                    _State_Machime.changeto(_State_Machime._Attack_Small);
+                }
+
+                return;
+                // _play.turn(inputH > 0 ? 1 : -1);
+            }
+            if (pi.Input.jump && pi.IsGrounded())
+            {
+                Debug.Log("jump做");
+
+                _State_Machime.changeto(_State_Machime._jump);
+                
+                return;
+            }
         }
         public override void PalyLogic()
         {
@@ -77,13 +79,18 @@ namespace Cat
         }
         public override void Enter()
         {
-            anim.SetBool("跑", false); // ⭐ 關閉跑
-           // anim.Play(Name);
+            //anim.SetBool("跑", false); // ⭐ 關閉跑
+            //anim.SetBool("攻擊1", false);
+            pi.Input.ClearOneShot();
+            pi.Input.attackPressed = false;
+            pi.Input.jump = false;
+            Debug.Log("Enter Idle");
+            // anim.Play(Name);
             // anim.CrossFade(Name, 0.1f, 0, 0.1f);
             //pi.setv(new Vector3(0, pi.myrigi.linearVelocity.y, 0));
             //pi.movex = 0;
             // pi.Input.attack = false;
-           
+
 
         }
 
